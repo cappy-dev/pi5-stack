@@ -1,0 +1,8 @@
+# Data
+.env
+
+# Backups
+backups/
+
+# OS files
+.DS_Store

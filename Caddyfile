@@ -1,0 +1,15 @@
+# Caddy reverse proxy for Pi5 Stack
+# Replace cloud.example.com with your real domain.
+# Point your domain's DNS to your Pi's IP address.
+
+{$NC_DOMAIN} {
+    reverse_proxy nextcloud:80
+}
+
+:8081 {
+    reverse_proxy pihole:80
+}
+
+:3001 {
+    reverse_proxy uptime-kuma:3001
+}
