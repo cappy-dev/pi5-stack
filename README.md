@@ -168,4 +168,6 @@ docker compose down -v
 
 ## License
 
-MIT
+Copyright © 2026 cappy-dev. The current version is licensed under the GNU Affero General Public License version 3.0 only (AGPL-3.0-only); see [LICENSE](LICENSE).
+
+Earlier commits, including the original published version, were offered under the MIT License as shown in those commits’ LICENSE files. The MIT grant for those versions remains in effect for recipients of those versions. This AGPL-3.0-only license applies to the current version.
